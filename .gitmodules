@@ -1,0 +1,3 @@
+[submodule "vitaller/themes/hugo-pure"]
+	path = vitaller/themes/hugo-pure
+	url = https://github.com/undus5/hugo-pure

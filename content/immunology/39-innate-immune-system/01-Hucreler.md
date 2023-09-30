@@ -16,21 +16,21 @@ draft: false
 
 
 
-1. İsim
-    1. Ac :: Alveoler makrofaj
+1. İsimx
+    1. . Ac :: Alveoler makrofaj
     2. Kc :: Kupfer
     3. Kemik :: Osteoklast
     4. SSS :: Mikroglia
     5. Sinovyal Membran :: Tip A sinovisit
-1. Üretir
-    6. Hidrolitik enzim
-    7. Reakt. Oksijen türev.
-    8. Kemokin
-2. Fagositoz :: Mikroorg. .. Yabancı madde
-3. Uyarım :: Ig’lerin Fc’leriyle olabilir
-4. İki tür :: M1 .. M2
-5. Yaşlı hc .. Apoptik hc :: Eliminasyonu
-6. T hc lere antijen sunumu
+2. Üretir
+    1. Hidrolitik enzim
+    2. Reakt. Oksijen türev.
+    3. Kemokin
+3. Fagositoz :: Mikroorg. .. Yabancı madde
+4. Uyarım :: Ig’lerin Fc’leriyle olabilir
+5. İki tür :: M1 .. M2
+6. Yaşlı hc .. Apoptik hc :: Eliminasyonu
+7. T hc lere antijen sunumu
 
 **II. Dentritik hc**
 

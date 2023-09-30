@@ -1,0 +1,44 @@
+{{- $page := . }}
+
+{{- if $page.IsPage }}
+<h1 class="post-title">
+    {{- if $page.Draft }}* {{ end }}
+    {{ $page.Title -}}
+</h1>
+<p class="post-meta">
+    {{- with $page.Lastmod }}
+        <span>Updated: {{ .Format "2006-01-02" }}</span>
+    {{- end }}
+    {{- if and $page.Lastmod $page.Date }},{{- end }}
+    {{- with $page.Date }}
+        <span>Created: {{ .Format "2006-01-02" }}</span>
+    {{- end }}
+    {{- if $page.Params.tags }}
+        {{- range $tag_index, $tag := $page.GetTerms "tags" }}
+            {{- if ne $tag_index 0 }},{{- end }}
+            <a class="post-tag" href="{{$tag.Permalink}}">{{- $tag.Title -}}</a>
+        {{- end }}
+    {{- end }}
+</p>
+{{- end }}
+
+{{- with $page.Resources.Get "poster.webp" }}
+    {{- $poster := . }}
+    {{- $source := $page.Params.source }}
+    {{- if $source }}
+        <figure class="poster poster-mask">
+            <a target="_blank" href="{{- $source -}}" rel="noreferrer">
+                <img src="{{- $poster.RelPermalink -}}">
+                <i class="fa-solid fa-play"></i>
+            </a>
+        </figure>
+    {{- else }}
+        <figure class="poster">
+            <img src="{{- $poster.RelPermalink -}}">
+        </figure>
+    {{- end }}
+{{- end }}
+
+<div class="post-content">
+    {{- $page.Content }}
+</div>

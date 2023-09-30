@@ -2,6 +2,7 @@
 title: "39 The Innate Immune System"
 date: 2023-09-30T00:26:40+03:00
 draft: false
+weight: 50
 ---
 39 The Innate Immune System
 1. The Innate Immune System in Host Defense and Disease Pathogenesis

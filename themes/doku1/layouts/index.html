@@ -11,6 +11,12 @@
         </head>
         <body>
             <p>index.html</p>
-            {{ .Content }}
+            {{ range .Site.Sections }}
+            <ul>
+                <li><a href="{{.Permalink }}">{{.Title}}</a></li>
+            </ul>
+                
+            {{ end }}
+            {{.Content}}
         </body>
     </html>

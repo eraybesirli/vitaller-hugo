@@ -1,7 +1,8 @@
 ---
 title: "40 The Adaptive Immune System"
 date: 2023-09-30T16:15:28+03:00
-draft: true
+draft: false
+weight: 60
 ---
 
 I. Principles of Adaptive Immune System Activation: Recognition of Antigen
